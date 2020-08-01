@@ -48,6 +48,7 @@ function Routes ({user, setUser}) {
 
           In your own words, please explain what is happening in the logic below.
           ANSWER HERE:
+          The logic below is define a set of routing rules, the react router will check if the use logged in or not, if the user already logged in it will redirect to the new path, if not it will stay on the current page.
         */
       }
       <Route exact path="/tours" render={
